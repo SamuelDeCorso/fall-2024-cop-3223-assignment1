@@ -1,5 +1,9 @@
+//************************************************ 
+//fracturing.c
 //Samuel DeCorso
 //UCF ID: 5156159
+//Class: COP 3223, Professor Parra
+//************************************************
 
 //include stdio and math to be able to calculate 
 #include<stdio.h>
@@ -13,7 +17,7 @@ double askForUserInput() {
     return value;
 }
 
-//this is to 
+//this is to get the distance for every time the get distance is called upon.
 double getDistance() {
     double x1, y1, x2, y2;
 
@@ -99,7 +103,7 @@ double calculateHeight() {
 
 // Main function to call all other functions
 int main(int argc, char **argv) {
-    // Call functions to have their use
+    // Call functions to have their use, from the main function
 
     
     calculateDistance();
